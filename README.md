@@ -21,9 +21,5 @@
 <li>Django</li>
 </ol> 
 
-<a href "https://cmppro5997.github.io/my-portfolio-CP/" style="text-decoration: none;">
-  <button style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-    Access My Portfolio
-  </button>
-</a>
+<a href="https://cmppro5997.github.io/my-portfolio-CP/"><button>Access to my Project One</button>
 
