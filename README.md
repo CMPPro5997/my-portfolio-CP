@@ -18,7 +18,7 @@
 </ol> 
 
 <h1>Skills to come</h1>
-<p>I have chosen to have my base in python and Django as not only has be college advsed this, in my research identify is less popular but highly commendable to the e-xommerce industy</p>
+<p>I have chosen to have my base in python and Django as not only has be college advised this, in my research identify is less popular but highly commendable to the e-xommerce industy</p>
 <ol>
     <li>Django and Python</li>
     <li>React and Redux</li>
