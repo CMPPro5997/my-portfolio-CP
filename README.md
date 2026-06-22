@@ -21,6 +21,6 @@
 <li>Django</li>
 </ol> 
 
-<a href="https://cmppro5997.github.io/my-portfolio-CP/"><button>Access to my Project One</button>
+<a href="https://cmppro5997.github.io/my-portfolio-CP/"><button>Access to my Project One</button><hr>
 <a href="#"><button>Access to my Project Two</button>
 
