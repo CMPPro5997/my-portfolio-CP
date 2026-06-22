@@ -15,11 +15,14 @@
     <li>CSS</li>
     <li>JavaScript</li>
     <li>UI/UX essential basics</li>
-<li>React</li>
-<li>Redux</li>
-<li>Python</li>
-<li>Django</li>
 </ol> 
+
+<h1>Skills to come</h1>
+<p>I have chosen to have my base in python and Django as not only has be college advsed this, in my research identify is less popular but highly commendable to the e-xommerce industy</p>
+<ol>
+    <li>Django and Python</li>
+    <li>React and Redux</li>
+</ol>
 
 <h1>My HTML, CSS and Javascript Quiz for Learners of Phsyics</h1>
 <p>To make this quiz i studied html css and javascript with the learning people. I discovered an ability to write pseudo code which painted the facets of my abilities by enabling me to research code for each language in front-back end has its very own purpose. I chose Physics because it was my favourit e subject at school outiside Biology and Chemistry. </p>
