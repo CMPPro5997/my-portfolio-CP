@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics For Adult Learners</title><!--tab title-->
+    
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+  body {
+    background-image: url('https://plus.unsplash.com/premium_photo-1752155442012-ad45a1e32a7b?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #25200f;
+    font-family: 'Arimo', sans-serif; /* Moved inside the braces */
+    padding: 20px; /* Added for readability */
+  }
+
+  fieldset {
+    background: rgba(255, 255, 255, 0.7); /* Adds a semi-transparent background to make text readable */
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+</style>
+<body><!--Mainarea-->
+    <h1>Free Physics General Knowledge Quiz
+    </h1>
+    <caption>We hope you enjoy this complimentary quiz with the first edition of Physics For Peace Vol 1 2026</caption><br><br><hr>
+<p id="result">Your Result:</p>
+
+   <fieldset>
+  <legend>Give the application of thermal energy?</legend>
+
+  <label>
+    <input type="radio" name="q1" value="correct">
+    Energy that warms our homes
+  </label><br>
+
+  <label>
+    <input type="radio" name="q1" value="wrong">
+    Energy that we can move around
+  </label><br>
+
+  <label>
+    <input type="radio" name="q1" value="wrong">
+    Energy that can stretch and recoil
+  </label>
+</fieldset>
+
+<fieldset>
+  <legend>What type of unit of power electrical energy is?</legend>
+
+  <label>
+    <input type="radio" name="q2" value="wrong">
+    Joules
+  </label><br>
+
+  <label>
+    <input type="radio" name="q2" value="correct">
+    Kilowatt/hour(kwh)
+  </label><br>
+
+  <label>
+    <input type="radio" name="q2" value="wrong">
+    Centimetres(cm)
+  </label><br>
+
+  <label>
+    <input type="radio" name="q2" value="wrong">
+    Millimetres(mm)
+  </label><br>
+
+  <label>
+    <input type="radio" name="q2" value="wrong">
+    Megabitspersecond(Mbps)
+  </label>
+</fieldset>
+
+<fieldset>
+  <legend>What type of energy is found in Earth relative to the Sun which keeps Earth's orbit?</legend>
+
+  <label>
+    <input type="radio" name="q3" value="correct">
+    Gravitational
+  </label><br>
+
+  <label>
+    <input type="radio" name="q3" value="wrong">
+    Elastic
+  </label><br>
+
+  <label>
+    <input type="radio" name="q3" value="wrong">
+    Thermal
+  </label><br>
+
+  <label>
+    <input type="radio" name="q3" value="wrong">
+    Biological
+  </label><br>
+
+  <label>
+    <input type="radio" name="q3" value="wrong">
+    Geographical
+  </label>
+</fieldset>
+
+
+<fieldset>
+  <legend>What type of energy is crude oil transformed into?</legend>
+
+  <label>
+    <input type="radio" name="q4" value="wrong">
+    Herbal
+  </label><br>
+
+  <label>
+    <input type="radio" name="q4" value="wrong">
+    Sound
+  </label><br>
+
+  <label>
+    <input type="radio" name="q4" value="wrong">
+    Tidal
+  </label><br>
+
+  <label>
+    <input type="radio" name="q4" value="wrong">
+    Kinetic
+  </label><br>
+
+  <label>
+    <input type="radio" name="q4" value="correct">
+    Electrical
+  </label>
+</fieldset>
+
+<button id="submitBtn">Submit to Get Your Results</button>
+
+</body>
+<script>
+document.getElementById("submitBtn").addEventListener("click", function () {
+
+    let score = 0;
+
+    // Correct answers based on your HTML values
+    const correctAnswers = {
+        q1: "correct",
+        q2: "correct",
+        q3: "correct",
+        q4: "correct"
+    };
+
+    // Loop through each question
+    for (let question in correctAnswers) {
+        const selected = document.querySelector(`input[name="${question}"]:checked`);
+        if (selected && selected.value === correctAnswers[question]) {
+            score++;
+        }
+    }
+
+    // Show score
+    document.getElementById("result").innerText = `Your score: ${score}/4`;
+});
+</script>
+
+</html>
